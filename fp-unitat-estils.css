@@ -1,0 +1,214 @@
+@charset "UTF-8";
+	
+
+	div.unitat {
+		color: #266fdc;
+		padding-left: 40px;
+	}
+
+	div.unitat-avaluacio {
+		color: #71096C;
+		padding-left: 40px;
+	}
+
+	h3.titol-unitat {
+		color: inherit;
+		margin-bottom: 0px;
+		border-bottom: 2px solid currentColor;
+		font-size: 20px;
+		padding: 10px 10px 10px 3px;
+	}
+
+	div.llico {
+		border-bottom: 1px solid currentColor;
+		/*border-bottom: 1px solid color-mix(in srgb, currentColor 60%, transparent);*/
+		padding: 13px 0px 11px 0px;
+		cursor: pointer;
+	}
+
+
+	.titol-llico {
+		font-size: 17px;
+		line-height: 25px;
+		color: inherit;
+		margin-bottom: 0px;
+	}	
+
+
+	.titol-llico a {
+    	color: inherit;
+	}
+
+	.titol-llico a:hover {
+    	color: inherit;
+    	text-decoration: underline;
+	}
+
+	
+
+
+	.llico-part-visible, .llico-part-amagada {
+		display: flex;
+		flex-wrap: no-wrap;
+	}
+
+	.llico-part-visible {
+		align-items: center;
+	}
+
+	.llico-part-amagada {
+		align-items: start;
+		margin: 10px 0px;
+	}
+
+
+
+
+	.recursos-llico {
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.recursos-llico li{
+		list-style-type: none;
+	}
+
+	.pila-llico img {
+		margin-left: 3px;
+		width: 20px;
+		height: auto;
+	}
+
+	.desplegable-llico img, .objecte-recurs-complecio img  {
+		width: 20px;
+		height: auto;
+		display: flex;
+		margin: 0 auto;
+	}
+
+
+
+
+
+	.avaluacio {
+		color: #71096C;
+		
+	}
+
+	
+	
+	.desplega-llico{
+		display: none;
+	}
+
+	.pila-llico {
+		text-align: center;
+		width: 6%;
+		font-size: 13px;
+		margin: 0px;
+		padding:0px 0px 0px 0px;
+	}
+
+	.pila-llico-INV{
+		width: 6%;
+		margin: 0px;
+		padding:0px 0px 0px 10px;
+	}
+
+	.id-llico {
+		text-align: center;
+		width: 7%;
+		font-size: 23px;
+		font-weight: bolder;
+	}
+
+	.id-llico-INV{
+		width: 7%;
+	}
+
+
+
+
+
+	.titol-contenidor, .descripcio-llico-INV {
+		width:50%;
+		padding-right: 10px;
+		padding-left: 5px;
+	}
+
+	.titol-contenidor{
+		font-size: 17px;
+		font-weight: bold;
+	}
+
+	.descripcio-llico-INV {
+		font-size: 14px;
+		line-height: 150%;
+	}
+
+	.calendari-llico, .calendari-llico-INV{
+		width: 28%;
+		font-size: 14px;
+		padding-left: 5%;
+	}
+
+	.desplegable-llico, .desplegable-llico-INV {
+		width: 7%;
+	}
+
+
+	.dates-llico {
+		display: inline-block;
+	}
+
+
+
+	.avaluacio-obligatoria {
+		background-color: #71096C; 
+		color: white; 
+		padding: 3px; 
+		font-size: 12px;
+	}
+	
+	h3.sectionname {
+		color: #266fdc;
+		font-size: 23px;
+	}
+
+
+	.element-ocult-estudiant {
+		display: inline-block;
+		margin-left: 5px;
+		padding: 2px;
+		background-color: yellow;
+		font-size: 13px;
+	}
+
+@media only screen and (max-width: 768px) {
+ 
+	.id-llico {
+		display: none;
+	}
+
+	.id-llico-INV{
+		display: none;
+	}
+	.pila-llico, .pila-llico-INV{
+		width: 15%;
+	}
+
+	div#topofscroll {
+		max-width: 100%;
+	}
+
+}
+
+
+
+
+/**
+	header#page-header {
+		background-color: red;
+		background-image: url("pattern1.jpg");
+		background-repeat: repeat;
+	}**/
